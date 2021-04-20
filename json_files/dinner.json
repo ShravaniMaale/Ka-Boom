@@ -1,0 +1,10 @@
+{
+	"foodItems": [
+		{
+			"itemName": "CAPO STEAK",
+			"description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames",
+			"image": "images/capo-steak.jpg",
+			"price": "$45.00"
+		}
+	]
+}

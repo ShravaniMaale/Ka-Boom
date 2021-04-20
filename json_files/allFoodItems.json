@@ -1,0 +1,39 @@
+{
+	"foodItems": [{
+			"itemName": "LASAL CHEESE",
+			"description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames",
+			"image": "images/lasal-cheese.jpg",
+			"price": "$15.00"
+		},
+		{
+			"itemName": "JUMBO CARB SHRIMP",
+			"description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames",
+			"image": "images/jumbo-carb-shrimp.jpg",
+			"price": "$25.00"
+		},
+		{
+			"itemName": "SURMAI CHILLI",
+			"description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames",
+			"image": "images/surmai-chilli.jpg",
+			"price": "$15.00"
+		},
+		{
+			"itemName": "CAPO STEAK",
+			"description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames",
+			"image": "images/capo-steak.jpg",
+			"price": "$45.00"
+		},
+		{
+			"itemName": "ORGANIC FRUIT SALAD",
+			"description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames",
+			"image": "images/organic-fruit-salad.jpg",
+			"price": "$15.00"
+		},
+		{
+			"itemName": "PRAWNS BUTTER GARLIC",
+			"description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames",
+			"image": "images/prawns-butter-garlic.jpg",
+			"price": "$15.00"
+		}
+	]
+}

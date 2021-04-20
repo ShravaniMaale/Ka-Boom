@@ -1,0 +1,16 @@
+{
+	"foodItems": [
+		{
+			"itemName": "ORGANIC FRUIT SALAD",
+			"description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames",
+			"image": "images/organic-fruit-salad.jpg",
+			"price": "$15.00"
+		},
+		{
+			"itemName": "PRAWNS BUTTER GARLIC",
+			"description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames",
+			"image": "images/prawns-butter-garlic.jpg",
+			"price": "$15.00"
+		}
+	]
+}	

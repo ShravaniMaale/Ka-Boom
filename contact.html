@@ -1,0 +1,137 @@
+<!--
+Contact Page
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Ka Boom</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+<!--         JQUERY PLUGIN-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/additional-methods.min.js"></script>
+<!--       For google Maps-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBi_q5Ppo4vKFDEvgm1ymFkBlussM_wxtM"></script>
+        <!--       For google Maps-->
+        
+<!--        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBi_q5Ppo4vKFDEvgm1ymFkBlussM_wxtM"></script>-->
+        <link rel="stylesheet" type="text/css" media="all" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/smoothness/jquery-ui.css" />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="js/jquery.timepicker.css">
+    <script src="js/jquery.timepicker.js"></script>
+        
+        
+    </head>
+    <body>
+        <header id="contactHeader" class="contactHeader">
+        <div class="headerTop">
+            <div class="headerTopWrapper">
+                <div class="HeaderLogo">
+                    <img class="HeaderLogoImg" src="images/Logo.png">
+                    <p class="HeaderLogoText">Ka Boom</p>
+                </div>
+            </div>
+        </div>
+        <div class="headerBottom" id="headerBottom">
+            <div class="headerBottomWrapper">
+               <ul class="headerMenu">
+                    <li class="menuItem"><a class="menuItem1Link" href="index.html"><button class="menuButton" id="homePage">Home</button></a></li>
+                    <li class="menuItem"><a class="menuItem1Link" href="index.html#about"><button class="menuButton" id="aboutUsPage">About Us</button></a></li>
+                    <li class="menuItem"><a class="menuItem3Link" href="menu.html"><button class="menuButton" id="menuPage">Menu</button></a></li>
+                    <li class="menuItem"><a class="menuItem4Link" href="contact.html"><button class="menuButton" id="contactPage">Contact</button></a></li>
+                    <li class="menuItem"><a class="menuItem5Link" href="menu.html"><button class="menuButton" id="galleryPage">Gallery</button></a></li>
+                </ul>
+            </div>
+        </div>
+        </header>
+        <main>
+            <div class="wrapper" id="contactWrapper">
+                <form id="location-search-form">
+<div class="form-group input-group">
+    <input type="text" id="search_location" class="form-control" placeholder="Search location">
+    <div class="input-group-btn">
+        <button class="btn btn-default get_map" type="submit">
+            Locate
+        </button>
+    </div>
+</div>
+</form>
+                <section class="contactSection" id="contact">
+                    
+
+<!-- display google map -->
+<div id="geomap"></div>
+                    <div class="column" id="contactData">
+                        <p>Make unique days much more extraordinary with scrumptious nour-ishment, extravagant mood &amp; numerous fun exercises to ensure that each individual from your family has the most magnificent time.</p>
+                        <h3 style="color: #e4b95b">Our Address</h3>
+                        <p>201 Westheights Drive, Kitchener,<br>
+                            ON, Canada - N2N1K2.<br></p>
+                        <span class="contactDecoration">email: </span><a href="mailto:kaboom@kaboom.com" style="font-size: 15px">kaboom@kaboom.com</a><br>
+                        <span class="contactDecoration">call: </span><a href="tel:+19999999999" style="font-size: 15px">999-999-9999</a>
+                    </div>
+                    
+<!--                    <div id="map"></div>-->
+                </section>
+                <section class="formClass">
+      <div class="container" id="about">
+        <div class="row">
+          <div class="sectionHeading">
+            <h2>BOOK A TABLE</h2>
+            <h3>The Good Taste of Food</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+                <section class="formClass1">
+      <div class="container1" id="about1">
+          
+            <h1 id="hello">Hello World!</h1>
+          <div id="formErrorMessage" class="formErrorMessage"></div>
+            
+      </div>
+    </section>
+
+        <div class="formBodySection" id="formBodySection"> 
+	<form name="reservation_form" id="reservation_form">
+
+        <label for="email">Email:</label>
+        	<input type="text" name="email" id="email" class="formControl" placeholder="email">
+        <div class="clear"></div>
+        
+        	<label for="arrival_date">Arrival date:</label>
+        <div class="datePicker" id="datePicker">
+        	<input type="text" name="arrival_date" id="datepicker" placeholder="Arrival Date" class="formControl" autofocus>
+        </div>
+        
+         <div class="clear"></div>
+    		<label for="name">Name:</label>
+			<input type="text" name="name" id="name" class="formControl" placeholder="Your Name">
+        <div class="clear"></div> 
+        	 
+			<label for="phone">Phone:</label>
+			<input type="text" name="phone" id="phone" placeholder="Phone(999-999-9999)" class="formControl">
+        <div class="clear"></div> 
+        <textarea name="message" class="formControl" id="message" rows="40" cols="40" placeholder="Your Message (Optional)"></textarea>
+        <div class="clear"></div> 
+            
+
+        <button id="submit">Book Now</button>
+        <br>
+
+	</form>
+            </div>
+            </div>
+            
+        </main>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
